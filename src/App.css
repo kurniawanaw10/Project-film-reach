@@ -1,26 +1,20 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./assets/img/cinema.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Hero .link{
+  text-decoration: none;
+  color: white;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -28,11 +22,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Main{
+  text-align: center;
+  padding-top: 60px;
+  background-color: #20242a;
+}
+
+.Movie-wrapper{
+  width: 300px;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.Movie-title{
+  height: 54px;
+  margin-top: 30px;
+}
+
+.Movie-date{
+  margin-top: 10px;
+}
+
+.Movie-rate{
+  color: red;
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.Movie-search{
+  height: 46px;
+  font-size: 18px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: #292d31;
 }
